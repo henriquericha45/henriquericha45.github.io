@@ -4,6 +4,7 @@
     --background: #333;
     --header-background: rgb(0, 143, 143);
     --menu-color: white;
+    --inicio-background: rgb(109, 109, 109);
 }
 
 *, *::before, *::after {
@@ -162,7 +163,13 @@ nav a:hover {
     }
 }
 
-
+#inicio {
+    height: 100vh;
+    background-color: var(--inicio-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -180,6 +187,7 @@ nav a:hover {
 
 
 .box-container {
+    height: 100vh;
     display: block;
     justify-content: center;
     align-items: center;
